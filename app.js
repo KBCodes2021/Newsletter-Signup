@@ -3,7 +3,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 
-//If below is left enabled it breaks the server
+//If below is left enabled it breaks the nodemon server
 //const request = require("request");
 
 const https = require("https");
