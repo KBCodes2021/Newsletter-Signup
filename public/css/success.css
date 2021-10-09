@@ -1,10 +1,8 @@
 body {
-  background-image: url("/Images/SmoothSailin.gif");
-  background-size:100%;
-  background-attachment: fixed;
-  height:100%;
-  width:100%;
-  padding-bottom: 30px;
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(210deg, #FFF8E5 50%, #00A19D 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
 }
 
 .bootstrap {
