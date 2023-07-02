@@ -35,11 +35,11 @@ app.post("/", function(req, res) {
 
   const jsonData = JSON.stringify(data);
 
-  const url = "";
+  const url = "https://us5.api.mailchimp.com/3.0/lists/d845c9bd67";
 
   const options = {
     method: "POST",
-    auth: ""
+    auth: "nick1:2e4c276d0e4839591a2f2a1d772132c7-us5"
   };
 
   const request = https.request(url, options, function(response) {
@@ -66,3 +66,8 @@ app.post("/failure", function(req, res) {
 app.listen(process.env.PORT || 3000, function() {
   console.log("Server is running on port 3000");
 });
+//API  Mailchimp
+// 2e4c276d0e4839591a2f2a1d772132c7-us5
+
+//Audicence ID
+// d845c9bd67
